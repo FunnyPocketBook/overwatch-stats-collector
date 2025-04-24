@@ -4,6 +4,6 @@ services:
     ports:
       - "8000:8000"
     environment:
-      SECRET: placeholder
+      SECRET: counterwatchisactuallyreallycool
     volumes:
       - "/opt/overwatch-stats-collector/match_data:/app/match_data"
