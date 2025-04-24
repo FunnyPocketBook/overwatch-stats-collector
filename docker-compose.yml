@@ -1,6 +1,6 @@
 services:
   match-api:
-    image: match-api
+    image: ghcr.io/funnypocketbook/overwatch-stats-collector:main
     ports:
       - "8000:8000"
     environment:
